@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+
+    <meta charset="utf-8">
+    <title>Schreinerei</title>
+
+    <style>
+      .header-image{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+      }
+
+      .headlin{
+        color:orange;
+      }
+
+      .image-container{
+        background-color: white;
+        padding: 16px;
+      }
+      .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      a{
+        color: black;
+        text-decoration: none;
+        margin-left: 16px;
+        font-weight: bold;
+      }
+
+      a:hover{
+        text-decoration: underline;
+        font-weight: bold;
+      }
+
+      .text-highlight{
+        color: black;
+        font-size: 20px;
+      }
+      .text-container{
+        background-color:	#ffd39b;
+        padding: 8px;
+        color: black;
+        font-weight: 600;
+        margin-top: 16px;
+
+      }
+
+      .maps-container{
+        margin-top: 16px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .maps-right{
+        width: 30%;
+        margin-left: 16px;
+        margin-top: 16px;
+      }
+
+      .maps-frame{
+        boarder:0;
+        height: 350px;
+        width: 70%;
+      }
+      .legal-content{
+        text-decoration: none;
+        padding: 8px;
+      }
+      .joel{
+        color: black;
+        font-weight: bolder;
+      }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<style>
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F3F5F6;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+</style>
+  </head>
+  <body>
+    <div class="navbar">
+
+      <h1 class="headlin">
+      Schreinerei <br><span class="text-highlight">Willkommen</span>
+      </h1>
+
+      <div>
+        <a href="#">Über uns</a>
+        <a href="https://www.staggeringbeauty.com">Infos</a>
+        <a href="#">Termin</a>
+        <a href="mailto:joelbeyeler@icloud.com">Kontakt</a>
+      </div>
+    </div>
+
+
+     <div class="image-container">
+
+      <img class="header-image"src="header.jpg">
+
+        <div class="text-container">
+          Holzarbieten nach Mass
+        </div>
+
+            <dive class="maps-container">
+              <iframe class="maps-frame"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1637.6910793050965!2d9.043636697561094!3d47.459219336408935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aebc4e8811369%3A0x5a2e5d19db317de6!2sThalmann%20Holzbau%20AG!5e0!3m2!1sde!2sch!4v1633425891678!5m2!1sde!2sch"
+               allowfullscreen="" loading="lazy"></iframe>
+
+
+              <div class="text-container maps-right">
+                Ihre Schreinerreich für profisionelle Holzarbeiten. Finden sie uns jetzt auf Google Maps
+                und Kaufen Sie unsere Produkte. Danke :)
+              </div>
+
+            </div>
+
+
+
+     </div>
+     <div class="legal-content">
+       <g class="joel">(c) 2021 - Joel gmbh</g> <a href="#">Impressum <a href="#">Datenschutz
+
+  </body>
+</html>
